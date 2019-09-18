@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- meta tags obrigatorias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="estilo.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+  <link rel="icon" type="imagem/png" href="_img/icone.png" />
+  <title>Always</title>
+
+  <!-- CSS do Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css">
+  <!-- FontAsowe-->
+  <script src="https://kit.fontawesome.com/70fc463e35.js"></script>
+</head>
+<body onload="infoProduto()">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand h1 mb-0" href="index.html">Always</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSite">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comida.html">Delivery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Roupa.html">Roupas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="acessorio.html">Acessórios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="utensilios.html">Uténsilios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="brinquedo.html">Brinquedos</a>
+              </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                Social
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="parceiros.html">planos</a>
+                <a class="dropdown-item" href="https://www.facebook.com/marketeiro.daloja.7" target="_blank">Facebook</a>
+                <a class="dropdown-item" href="https://www.instagram.com/rg7_oficial/" target="_blank">Instagram</a>
+                <a class="dropdown-item" href="#">Whatsapp</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+<div id="carrocel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="_img/foto1.png" class="img-fluid d-block" alt="">
+    </div>
+    <div class="carousel-item">
+        <img src="_img/foto2.png" class="img-fluid d-block" alt="">
+    </div>
+    <div class="carousel-item">
+        <img src="_img/foto3.png" class="img-fluid d-block" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="_img/foto4.png" class="img-fluid d-block" alt="">
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#carrocel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a  class="carousel-control-next" href="#carrocel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="sr-only">Proximo</span>
+  </a>
+</div>
+
+<main class="container" id="principal">
+  <hr class="linha2">
+  <h4 class="categoria">Roupa</h4>  
+  <div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12 produto " onclick="roupa0()">
+        <img class="icone" src="_img/roupa/roupa0.png">
+        <a class="linkes" href="produtos/roupa0.html">Cropped de Malha</a><br><br>
+        <h7>por</h7>
+        <h4>R$ 19,99</h4>
+    </div> 
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12 produto " onclick="roupa1()">
+      <img class="icone" src="_img/roupa/roupa1.png">
+      <a class="linkes" href="produtos/roupa1.html">Bermuda Masculina Tactel</a><br><br>
+      <h7>por</h7>
+      <h4>R$ 29,99</h4>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12 produto " onclick="roupa2()">
+      <img class="icone" src="_img/roupa/roupa2.png">
+      <a class="linkes" href="produtos/roupa2.html">Camisa Masculina</a><br><br>
+      <h7>por</h7>
+      <h4>R$ 19,99</h4>
+    </div>   
+  
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12 produto " onclick="roupa3()">
+        <img class="icone" src="_img/roupa/roupa3.png">
+        <a class="linkes" href="produtos/roupa3.html">Calça Jeans Masculina</a><br><br>
+        <h7>por</h7>
+        <h4>R$ 69,99</h4>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12 produto " onclick="roupa4()">
+        <img class="icone" src="_img/roupa/roupa4.png">
+        <a class="linkes" href="produtos/roupa4.html">Vestido de Viscose Florido</a><br><br>
+        <h7>por</h7>
+        <h4>R$ 29,99</h4>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12 produto " onclick="roupa5()">
+        <img class="icone" src="_img/roupa/roupa5.png">
+        <a class="linkes" href="produtos/roupa5.html">Saia Feminina</a><br><br>
+        <h7>por</h7>
+        <h4>R$ 39,99</h4>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12 produto " onclick="roupa6()">
+        <img class="icone" src="_img/roupa/roupa6.png">
+        <a class="linkes" href="produtos/roupa6.html">Blusa de Viscose Feminina</a><br><br>
+        <h7>por</h7>
+        <h4>R$ 19,99</h4>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12 produto " onclick="roupa7()">
+      <img class="icone" src="_img/roupa/roupa7.png">
+      <a class="linkes" href="produtos/roupa7.html">Calça de Brim Masculina</a><br><br>
+      <h7>por</h7>
+      <h4>R$ 59,99</h4>
+  </div>
+  </div>
+</main>
+
+<footer class=" rodape footer  bg-dark">
+  <div class=" row justify-content-center">
+    <div class="ajuste col-lg-3 col-md-3 col-sm-4 text-center font-weight-bold"><a class="nav-link" href="./../index.html">Home</a></div>
+    <div class="ajuste col-lg-3 col-md-3 col-sm-4 text-center font-weight-bold"><a class="nav-link" href="./../comida.html">Delivery</a></div>
+    <div class="ajuste col-lg-3 col-md-3 col-sm-4 text-center font-weight-bold"><a class="nav-link" href="./../Roupa.html">Roupa</a></div>
+    <div class="ajuste col-lg-3 col-md-3 col-sm-4 text-center font-weight-bold"><a class="nav-link" href="./../acessorio.html">Acessórios</a></div>
+  </div>
+</footer>
+
+  <!-- Primeiro o jQuery, depois o Popper.js, e depois o Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.js"></script>
+</body>
+</html>

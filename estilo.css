@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#principal {
+    width: 100%;
+    padding: 30px;
+    transition: 1s;
+    margin-bottom: 100px;
+}
+.produto {
+    max-width: 120px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.8s;
+    justify-content: stretch;
+    align-items: flex-start;
+}
+/* .produto a, p, h7, h4 {
+    justify-content: center;
+    align-items: flex-end;
+} */
+.produto p {
+    font-family: 'Nunito', sans-serif;
+}
+.produto h5 h3 {
+    padding: 0;
+    
+}
+.produto:hover {
+   
+    box-shadow: 1px 1px 20px #000;
+    cursor: pointer;
+}
+.linkes {
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+
+}
+.linkes:hover {
+    color: #ff0e00;
+    text-decoration: underline;
+    
+}
+.row {
+    width: 100%;
+}
+.poster {
+    background: blue;
+    margin: 0;
+    padding: 0;
+    
+}
+.rodape {
+    height: auto;    
+    width: 100%;
+    clear: both;
+}
+.ajuste {
+    padding: 20px;
+    font-size: 20px;
+}
+.ajuste:hover {
+    color: blue;
+}
+.ajuste a {
+    text-decoration: none;
+}
+img.icone {max-width: 150px; margin:0 auto; display: block; margin-top: 5px;}
+p, h1 { text-align: center; font-family:Arial,sans-serif}
+a {
+    text-decoration: none;
+
+}
+#ajuda {
+    width: 100%;
+    height: auto;
+    background-color: chocolate;
+    opacity: 0.7;
+    padding-top: 10px;
+    text-align: center;
+    transition: 2s;
+    color: #fff;
+    font-weight: 550;
+    
+}
+#ajuda p {
+    opacity: 1;
+}
+#ajuda span {
+    float: right;
+    margin-right: 30px;
+    background-color: #000;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+
+/* ---------------Produto------------------ */
+#principal2 {
+    padding: 0px;
+}
+#principal2 h1 {
+    padding: 30px;
+}
+#caixa {
+    margin-bottom: 100px;
+}
+.esse {
+    text-align: left;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.esse p {
+    text-align: left;
+    font-size: 15pt;
+}
+.esse h1 {
+    text-align: left;
+    padding-left: 0;
+    padding-top: 0;
+    margin-top: 0;
+    color: darkgrey;
+}
+#comprar {
+    margin-left: 10px;
+
+}
+hr {
+    height: 3px;
+    width: 95%;
+    border: none;
+    color: #000;
+    background: #000;
+    margin: 0px;
+    padding: 0px;
+}
+p#aviso {
+    margin: 5px;
+    font-size: 10pt;   
+    color: #ff0e00;
+}
+/* #comentarios h2 {
+ margin-top: 0;
+ margin-left: 50px;
+ padding-top: 0;
+} */
+#face {
+    margin-left: 100px;
+}
+#anuncio {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* -----------Css para Pareiros--------------- */
+
+#principal3 h1 {
+    margin: 30px;
+}
+#principal3 p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.parceiro p {
+    text-align: justify;
+}
+.cadastrar {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    background: blue;
+    padding-top: 30px;
+    color: #fff;
+}
+.cadastrar button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cadastrar h2 h3 {
+    width: 100%;
+}
+.botao {
+    background: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.seta {
+    border-radius: 50%;
+    color: blue;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    
+    
+}
+.divulgacao {
+    margin-left: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+#planos {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#planos h1 {
+    font-weight: bolder;
+    margin: 40px;
+}
+#planos h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+#lista {
+    text-align: left;
+}
+#lista li {
+    text-decoration: none;
+}
+
+
+
+.plano {
+    border: 1px #000 solid;
+    border-radius: 5%;
+    margin: 10px;
+    padding: 10px;
+}
+.plano:nth-child(1) {
+    border: none;
+}
+.plano:first-child ul li {
+    text-align: left;
+}
+.plano ul li:nth-child(1) {
+    font-size: 15pt;
+    font-weight: 800;
+}
+.plano ul li:nth-child(odd) {
+    background-color: rgb(226, 222, 222);
+}
+.plano ul {
+    list-style-type: none;
+    
+}
+.plano ul li {
+    text-align: center;
+    font-size: 14pt;
+    margin-top: 10px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+.certo {
+    color: lawngreen;
+}
+.errado {
+    color: #ff0e00;
+}
+.linha {
+    width: 320px;
+    margin-left: 35%;
+    background-color: rgb(219, 213, 213);
+    height: 2px;
+}
+.linha2 {
+    width: 100%;
+    margin-left: -2%;
+    height: 2px;
+    background-color: '#000';
+    margin-top: 30px;
+}
+.bannerPequeno img {
+    margin-bottom: 30px;
+    margin-top: 0;
+    margin-left: 30%;
+}
+@media screen and (max-width: 992px) {
+    .linha {
+        margin-left: 20%;
+    }
+  }
+
+/* RG7 estilo */
+
+
+.categoria {
+    font-weight: bolder;
+    margin-left: 5%;
+    font-size: 30pt;
+    margin-bottom: 50px;
+}
+
+/* ===================Comida==================== */
+
+#comida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.embreve {
+    font-size: 100pt;
+    color: #008080;
+    z-index: 1;
+}
+.txt2 {
+    font-size: 100pt;
+    color: #2f4f4f;
+    margin-left: -610px;
+    padding-top: 10px;
+    opacity: 0.5;
+}
+
+
+/* ===================== Extra ================ */
+
+.descricao {
+    font-size: 2pt;
+    font-weight: 300;
+}
+
+
+.ok {
+    display: none;
+}

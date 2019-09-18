@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- meta tags obrigatorias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="./../estilo.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+  <link rel="icon" type="imagem/png" href="./../_img/icone.png" />
+  
+
+  <title>Always</title>
+
+  <!-- CSS do Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.css">
+</head>
+<body onload="carregar()">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand h1 mb-0" href="./../index.html">Always</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSite">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="./../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./../comida.html">Delivery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./../Roupa.html">Roupas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./../acessorio.html">Acessórios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./../utensilios.html">Uténsilios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./../brinquedo.html">Brinquedos</a>
+                  </li>
+            </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                Social
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="./../parceiros.html">Planos</a>
+                <a class="dropdown-item" href="https://www.facebook.com/marketeiro.daloja.7" target="_blank">Facebook</a>
+                <a class="dropdown-item" href="https://www.instagram.com/rg7_oficial/" target="_blank">Instagram</a>
+                <a class="dropdown-item" href="https://api.whatsapp.com/send?1=ptBR&phone=5538991504044">Whatsapp</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+<main class="container" id="principal2">
+  <div class="row">  
+    <div id="caixa" class="row col-lg-10 col-md-10 col-sm-12">
+        <h1 class="col-lg-12 text-left">Cropped de Malha</h1>
+        <div class="col-lg-6 ">
+          <img src="./../_img/roupa/roupa0.png" class="img-fluid d-block" width="800" height="800">
+        </div>
+        <div  class="esse col-lg-6 ">
+          <h1>#pratic002</h1>
+          <p>por <span style="font-size: 30pt; font-weight: bolder;">R$ 19,99</span> a vista</p>
+          <p class="descricao">
+            Material: Malha <br> 
+            Cores: Conferir com Vendedor<br> 
+            Tamanho: P, M, G</p>        
+          <button id="comprar" type="button" class="btn btn-primary" onclick="vender()">Comprar</button>
+          <p id="aviso">Ao clicar em comprar você sera direcionado para nosso whatsapp la faça seu pedido.</p>
+        </div>
+      </div>
+      <div id="anuncio" class="col-lg-2 col-md-2 col-sm-12" >
+        <img id="image">
+      </div>
+        
+    </div>
+  </div>
+</main>
+<center><hr></center>
+<div id="comentarios" class="container">
+  <h2>Comentarios</h2>
+  <div id="" class="col-lg-8 offset-1 fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="500" data-numposts="5"></div>
+</div>
+
+<footer class="container-fluid rodape footer  bg-dark">
+  <div class=" row justify-content-center">
+    <div class="ajuste col-lg-3 col-md-3 col-sm-4 text-center font-weight-bold"><a class="nav-link" href="#">Home</a></div>
+    <div class="ajuste col-lg-3 col-md-3 col-sm-4 text-center font-weight-bold"><a class="nav-link" href="#">Delivery</a></div>
+    <div class="ajuste col-lg-3 col-md-3 col-sm-4 text-center font-weight-bold"><a class="nav-link" href="#">Roupa</a></div>
+    <div class="ajuste col-lg-3 col-md-3 col-sm-4 text-center font-weight-bold"><a class="nav-link" href="#">Desapego RPM</a></div>
+</div>
+</footer>
+
+
+
+  <!-- Primeiro o jQuery, depois o Popper.js, e depois o Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.js"></script>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v4.0"></script>  
+  <script src="./../script.js"></script>
+</body>
+</html>
